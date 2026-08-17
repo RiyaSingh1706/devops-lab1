@@ -9,7 +9,7 @@ pipeline {
         stage('Build') {
             steps {
                 echo 'Building the project...'
-                bat 'python --versionn'
+                bat 'python --version'
             }
         }
         stage('Test') {
